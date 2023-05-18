@@ -1,4 +1,4 @@
-export default class Matematica {
+export default class Matemagica {
 
     private x: number
     private y: number
