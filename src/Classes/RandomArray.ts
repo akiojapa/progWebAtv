@@ -1,10 +1,10 @@
-import Produto from './Produto'
+import Product from './Product'
 
 export default class RandomArray {
 
-    private productsArray:Array<Produto> = [];
+    private productsArray:Array<Product> = [];
 
-    public addProductToArray(produto:Produto) {
+    public addProductToArray(produto:Product) {
         this.productsArray.push(produto)
     }
 
@@ -16,7 +16,7 @@ export default class RandomArray {
         return this.productsArray.length
     }
 
-    public setProductsArray(array:Array<Produto>) {
+    public setProductsArray(array:Array<Product>) {
         this.productsArray = array
     }
 
